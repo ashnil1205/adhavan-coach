@@ -1,0 +1,17 @@
+# Apache / cPanel / Hostinger — serve the SPA for every route
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Long-cache hashed assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType text/css   "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+</IfModule>

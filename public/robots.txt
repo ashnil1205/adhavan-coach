@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /img/_review/
+
+Sitemap: https://adhavancoach.com/sitemap.xml
