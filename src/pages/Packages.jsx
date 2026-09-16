@@ -164,9 +164,9 @@ export default function Packages() {
         index="02 / 06"
         lines={packages.h1}
         lede="Four structural baselines. The medical fit-out is specified on top."
-        img="/img/exterior-mobile-icu.jpg"
-        focus="50% 50%"
-        alt="Mobile ICU ambulance built to an Adhavan Coach specification"
+        img="/img/gallery/apollo-eeco-image.jpg"
+        focus="50% 55%"
+        alt="Apollo Eeco ambulance built by Adhavan Coach"
       />
       <Pricing />
 

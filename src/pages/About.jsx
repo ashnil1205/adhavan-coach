@@ -24,9 +24,9 @@ export default function About() {
         index="01 / 06"
         lines={aboutH1}
         lede={home.sub}
-        img="/img/exterior-neonatal-angle.jpg"
-        focus="50% 42%"
-        alt="Neonatal transport ambulance built by Adhavan Coach in Chennai"
+        img="/img/gallery/outer-9.jpg"
+        focus="50% 55%"
+        alt="Force Traveller ambulance built by Adhavan Coach in Chennai"
       />
 
       {/* the two source paragraphs, given room */}
