@@ -93,9 +93,7 @@ export default function Gallery() {
         kicker="Gallery"
         index="06 / 07"
         lines={["Work off", "the floor."]}
-        lede={items.length
-          ? `${items.length} photographs from the workshop and from vehicles in service.`
-          : "Photographs from the workshop and from vehicles in service."}
+        lede="Photographs from the workshop and from vehicles in service."
       />
 
       <section className="shell py-16 md:py-24">
