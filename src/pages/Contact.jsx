@@ -196,7 +196,7 @@ export default function Contact() {
 
       <PageHero
         kicker="Contact"
-        index="05 / 06"
+        index="07 / 07"
         lines={["Have questions", "about your", "ambulance build?"]}
         lede="Visit our Chennai facility to discuss your requirements with our team."
         img="/img/exterior-red-traveller.jpg"

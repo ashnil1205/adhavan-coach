@@ -392,6 +392,12 @@ function Gallery() {
       </div>
       <style>{`@keyframes gIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}`}</style>
 
+      <Reveal delay={120} className="mt-10 flex justify-end">
+        <Link to="/gallery" className="btn btn-ghost">
+          <span>View the Full Gallery <Arrow /></span>
+        </Link>
+      </Reveal>
+
       <Lightbox
         items={gallery}
         index={box}

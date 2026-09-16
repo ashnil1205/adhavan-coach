@@ -13,6 +13,7 @@ import Approach from "./pages/Approach";
 import Packages from "./pages/Packages";
 import WhyUs from "./pages/WhyUs";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
 
 /* ---- route change: shutter wipe, then jump to top ---- */
@@ -72,6 +73,7 @@ export default function App() {
           <Route path="/approach" element={<Approach />} />
           <Route path="/packages" element={<Packages />} />
           <Route path="/why-us" element={<WhyUs />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

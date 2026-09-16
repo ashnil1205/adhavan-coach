@@ -168,7 +168,7 @@ export default function Approach() {
       />
       <PageHero
         kicker="Approach"
-        index="02 / 06"
+        index="02 / 07"
         lines={approach.h1}
         lede={approach.closing}
         img="/img/interior-rear-pink.jpg"
