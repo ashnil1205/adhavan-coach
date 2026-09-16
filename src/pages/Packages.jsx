@@ -156,7 +156,7 @@ export default function Packages() {
     <>
       <Seo
         title="Ambulance Packages & Pricing — BLS, ALS & Custom | Adhavan Coach"
-        desc="Four structural ambulance builds — Plyboard Mica BLS, Basic BLS, Classic 1 and Classic 2 — plus full ALS medical fit-out. Specification-based quotes from Adhavan Coach, Chennai."
+        desc="Four structural ambulance builds — ACP Seat with PVC, Basic BLS, Classic 1 and Classic 2 — plus full ALS medical fit-out. Specification-based quotes from Adhavan Coach, Chennai."
         path="/packages"
       />
       <PageHero

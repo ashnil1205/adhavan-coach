@@ -18,7 +18,7 @@ const COLS = [
   {
     h: "Builds",
     links: [
-      { t: "Plyboard Mica BLS", to: "/packages#plyboard-mica-bls" },
+      { t: "ACP Seat with PVC", to: "/packages#acp-seat-with-pvc" },
       { t: "Basic — BLS", to: "/packages#basic-bls" },
       { t: "Classic 1", to: "/packages#classic-1" },
       { t: "Classic 2", to: "/packages#classic-2" },

@@ -12,7 +12,7 @@ export const contact = {
   ],
   addressOneLine:
     "No. 123/1, F2, MGR Street, Ambedkar Nagar, Red Hills, Chennai – 600052, Tamil Nadu",
-  phones: ["8838744495"],
+  phones: ["8838744495", "8939374901"],
   email: "adhavancoach@gmail.com",
   // TODO(client): confirm exact business hours — the source PDF glyphs
   // did not decode. These are placeholders.
@@ -165,13 +165,13 @@ export const packages = {
   ],
   tiers: [
     {
-      id: "plyboard-mica-bls",
+      id: "acp-seat-with-pvc",
       n: "01",
-      name: "Plyboard Mica BLS",
+      name: "ACP Seat with PVC",
       tag: "Basic Life Support",
-      img: "/img/interior-bench-wood.jpg",
+      img: "/img/interior-acp-pvc.jpg",
       blurb:
-        "The entry build — a clean, hard-wearing Sun Mica patient cabin with the full core BLS provision.",
+        "The entry build — ACP-panelled patient cabin with PVC seating and the full core BLS provision.",
       specs: [
         "O₂ System",
         "90AH Alternator",
@@ -192,7 +192,7 @@ export const packages = {
       n: "02",
       name: "Basic — BLS",
       tag: "Basic Life Support",
-      img: "/img/interior-cabin-white-blue.jpg",
+      img: "/img/interior-wide-cabin.jpg",
       blurb:
         "The same BLS provision stepped up to a moulded fibre interior for easier cleaning and a tighter finish.",
       specs: [
@@ -215,7 +215,7 @@ export const packages = {
       n: "03",
       name: "Classic 1",
       tag: "BLS + ALS",
-      img: "/img/interior-wide-bench.jpg",
+      img: "/img/interior-srm-blue.jpg",
       featured: true,
       blurb:
         "The crossover build. Fibre half cupboards and running lights on top of the full BLS layout, ready to carry ALS equipment.",
@@ -241,7 +241,7 @@ export const packages = {
       n: "04",
       name: "Classic 2",
       tag: "Advanced Life Support",
-      img: "/img/interior-wide-cabin.jpg",
+      img: "/img/interior-cabin-white-blue.jpg",
       blurb:
         "The top structural build — 233AH alternator, full fibre cupboards and air conditioning across both cabins.",
       specs: [
