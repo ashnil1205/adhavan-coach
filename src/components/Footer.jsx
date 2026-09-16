@@ -38,7 +38,7 @@ export default function Footer() {
             "Ambulance Fabrication",
             "Chennai · Tamil Nadu",
             "BLS · ALS · Neonatal",
-            "Since 2004",
+            "Since 2012",
             "Vehicle Customization",
           ]}
         />

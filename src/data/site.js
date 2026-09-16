@@ -43,14 +43,14 @@ export const home = {
   h1: ["Adhavan Coach:", "Ambulance Fabrication", "in Chennai"],
   sub: "Built to AIS-125 Standards and Delivered on Time",
   intro: [
-    "For over two decades, Adhavan Coach has been involved in high-quality ambulance fabrication and vehicle customization in Chennai, creating practical patient cabins and specialized interiors for medical transportation in Tamil Nadu and across India.",
+    "With over a decade of experience, Adhavan Coach has been involved in high-quality ambulance fabrication and vehicle customization in Chennai, creating practical patient cabins and specialized interiors for medical transportation in Tamil Nadu and across India.",
     "From vehicle modification and patient cabin fabrication to electrical systems, insulation and interior fittings, we build ambulances around the requirements of hospitals, healthcare providers and medical transport operators for all kinds of medical emergencies.",
   ],
   ctaLine: "Need an ambulance built or customized?",
 };
 
 export const stats = [
-  { v: 20, suf: "+", l: "Years of fabrication" },
+  { v: 14, suf: "+", l: "Years of fabrication" },
   { v: 125, pre: "AIS-", l: "Parts 1 & 2 baseline" },
   { v: 4, suf: "", l: "Standard build packages" },
   { v: 1, suf: " yr", l: "Warranty & repair cover" },

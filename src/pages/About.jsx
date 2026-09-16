@@ -14,8 +14,8 @@ export default function About() {
   return (
     <>
       <Seo
-        title="About Adhavan Coach — 20+ Years of Ambulance Fabrication, Chennai"
-        desc="Adhavan Coach has built ambulances and customized vehicles in Chennai for over two decades — patient cabins, electrical systems, insulation and interior fittings for hospitals and medical transport operators."
+        title="About Adhavan Coach — 14+ Years of Ambulance Fabrication, Chennai"
+        desc="Adhavan Coach has built ambulances and customized vehicles in Chennai for over a decade — patient cabins, electrical systems, insulation and interior fittings for hospitals and medical transport operators."
         path="/about"
       />
 
@@ -36,7 +36,7 @@ export default function About() {
             <div className="sticky top-32">
               <div className="mb-6 flex items-center gap-4">
                 <span className="h-1.5 w-1.5 bg-primary" />
-                <span className="kicker">Since 2004</span>
+                <span className="kicker">Since 2012</span>
               </div>
               <h2 className="display text-[clamp(1.8rem,4vw,2.8rem)]">
                 A workshop,<br />not a<br /><span className="text-primary">catalogue.</span>
@@ -126,7 +126,7 @@ export default function About() {
       </div>
 
       <CtaBand
-        lines={["Twenty years of", "getting it right."]}
+        lines={["Fourteen years of", "getting it right."]}
         sub="Tell us the use case and the equipment list. We'll tell you what the build actually needs."
         primary="Start a Conversation"
       />

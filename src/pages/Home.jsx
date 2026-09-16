@@ -80,7 +80,7 @@ function Hero() {
           <span className="h-1.5 w-1.5 bg-primary beacon" />
           <span className="kicker whitespace-nowrap !text-fg/75">Ambulance Fabrication · Chennai</span>
           <span className="hidden h-px w-14 bg-[var(--line)] sm:block" />
-          <span className="kicker num hidden !text-fg/62 sm:block">Est. 2004</span>
+          <span className="kicker num hidden !text-fg/62 sm:block">Est. 2012</span>
         </div>
 
         {/* H1 */}
@@ -156,7 +156,7 @@ function Intro() {
               <span className="kicker">Who we are</span>
             </div>
             <h2 className="display text-[clamp(1.8rem,4vw,2.9rem)]">
-              Two decades of<br />building for the<br />
+              A decade of<br />building for the<br />
               <span className="text-primary">worst day</span> of<br />someone's life.
             </h2>
           </div>
@@ -437,7 +437,7 @@ export default function Home() {
     <>
       <Seo
         title="Adhavan Coach — Ambulance Fabrication in Chennai | AIS-125 Builds"
-        desc="Over two decades of ambulance fabrication and vehicle customization in Chennai. BLS, ALS, neonatal and multi-stretcher builds to AIS-125 standards, delivered on time."
+        desc="Over a decade of ambulance fabrication and vehicle customization in Chennai. BLS, ALS, neonatal and multi-stretcher builds to AIS-125 standards, delivered on time."
         path="/"
       />
       <Hero />
