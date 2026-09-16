@@ -21,7 +21,7 @@ export default function About() {
 
       <PageHero
         kicker="About Us"
-        index="01 / 07"
+        index="01 / 06"
         lines={aboutH1}
         lede={home.sub}
         img="/img/exterior-neonatal-angle.jpg"

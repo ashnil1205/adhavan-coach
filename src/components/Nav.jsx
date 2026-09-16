@@ -7,7 +7,6 @@ import Magnetic from "./Magnetic";
 const LINKS = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  { to: "/approach", label: "Approach" },
   { to: "/packages", label: "Packages" },
   { to: "/why-us", label: "Why Us" },
   { to: "/gallery", label: "Gallery" },

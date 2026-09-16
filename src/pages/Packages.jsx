@@ -161,7 +161,7 @@ export default function Packages() {
       />
       <PageHero
         kicker="Packages"
-        index="03 / 07"
+        index="02 / 06"
         lines={packages.h1}
         lede="Four structural baselines. The medical fit-out is specified on top."
         img="/img/exterior-mobile-icu.jpg"

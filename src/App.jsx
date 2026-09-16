@@ -9,7 +9,6 @@ import Dock from "./components/Dock";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Approach from "./pages/Approach";
 import Packages from "./pages/Packages";
 import WhyUs from "./pages/WhyUs";
 import Contact from "./pages/Contact";
@@ -70,7 +69,6 @@ export default function App() {
         <Routes location={shown}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/approach" element={<Approach />} />
           <Route path="/packages" element={<Packages />} />
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/gallery" element={<Gallery />} />

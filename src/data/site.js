@@ -74,38 +74,10 @@ export const baseVehicles = [
   "Custom chassis",
 ];
 
-/* ---------- ABOUT / APPROACH ---------- */
+/* ---------- ABOUT ---------- */
 /* The source PDF files this H1 under PAGE 2 (About Us). */
 export const aboutH1 = ["More Than a Vehicle.", "A Space Built to Care."];
 
-export const approach = {
-  h1: ["Designed around how", "the vehicle gets used."],
-  lede: "An ambulance has to do more within a limited space.",
-  constraints: [
-    {
-      n: "01",
-      t: "Patient safety",
-      d: "Patients need to be transported safely.",
-    },
-    {
-      n: "02",
-      t: "Equipment access",
-      d: "Medical equipment needs to remain accessible.",
-    },
-    {
-      n: "03",
-      t: "Attendant space",
-      d: "Attendants need sufficient real-time working space.",
-    },
-    {
-      n: "04",
-      t: "Durability",
-      d: "Every component inside the cabin needs to withstand regular use and cleaning and be cost-effective.",
-    },
-  ],
-  closing:
-    "That's why our approach to international-quality ambulance fabrication in Chennai starts with understanding how the vehicle will actually be used.",
-};
 
 /* ---------- BUILD PROCESS ---------- */
 export const process = {

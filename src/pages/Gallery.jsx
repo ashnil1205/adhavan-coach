@@ -91,7 +91,7 @@ export default function Gallery() {
       />
       <PageHero
         kicker="Gallery"
-        index="06 / 07"
+        index="04 / 06"
         lines={["Work off", "the floor."]}
         lede="Photographs from the workshop and from vehicles in service."
       />

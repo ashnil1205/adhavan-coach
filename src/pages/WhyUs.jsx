@@ -46,7 +46,7 @@ export default function WhyUs() {
       />
       <PageHero
         kicker="Why Us"
-        index="04 / 07"
+        index="03 / 06"
         lines={whyUs.h1}
         lede="Six reasons hospitals and operators in Tamil Nadu keep coming back to the same workshop."
         img="/img/exterior-neonatal-side.jpg"

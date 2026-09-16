@@ -2,10 +2,9 @@ import Reveal from "../components/Reveal";
 import Scramble from "../components/Scramble";
 
 /* Shared inner-page masthead.
-   Most of the supplied photography is portrait (3:4 and 9:16), so the band
-   is a gentle 16:9 rather than a 21:9 letterbox — a letterbox threw away
-   ~75% of a portrait frame and landed the crop on whatever happened to be
-   in the middle. `focus` aims the remaining crop at the subject. */
+   The band takes an explicit height (not an aspect-ratio + max-height pair:
+   that combination shrinks the WIDTH on wide, short screens and leaves a
+   left-aligned box). `focus` aims the cover-crop at the subject. */
 export default function PageHero({
   kicker, index, lines, lede, img, alt, focus = "50% 50%",
 }) {
@@ -39,7 +38,7 @@ export default function PageHero({
 
       {img && (
         <Reveal kind="fade" delay={200} className="mt-16 md:mt-20">
-          <div className="media wipe is-in aspect-[4/3] max-h-[64vh] border-y hairline sm:aspect-[16/9]">
+          <div className="media wipe is-in h-[min(72vw,60vh)] min-h-[15rem] w-full border-y hairline sm:h-[min(52vw,64vh)]">
             <img src={img} alt={alt} style={{ objectPosition: focus }} />
           </div>
         </Reveal>

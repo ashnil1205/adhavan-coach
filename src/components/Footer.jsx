@@ -9,7 +9,6 @@ const COLS = [
     links: [
       { t: "Home", to: "/" },
       { t: "About Us", to: "/about" },
-      { t: "Approach", to: "/approach" },
       { t: "Packages", to: "/packages" },
       { t: "Why Us", to: "/why-us" },
       { t: "Gallery", to: "/gallery" },
